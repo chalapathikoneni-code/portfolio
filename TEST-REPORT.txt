@@ -1,0 +1,36 @@
+Checked 558 internal links/assets across 23 HTML pages.
+PASS: all internal links and assets resolve.
+
+Editorial checks:
+PASS: no banned marketing/AI-style phrases found.
+HTML pages: 23
+External links:
+href="https://chalapathikoneni.com/"
+href="https://chalapathikoneni.com/404.html"
+href="https://chalapathikoneni.com/case-studies/cloud-modernization.html"
+href="https://chalapathikoneni.com/case-studies/data-integrity.html"
+href="https://chalapathikoneni.com/case-studies/forecasting-platforms.html"
+href="https://chalapathikoneni.com/case-studies/observability.html"
+href="https://chalapathikoneni.com/case-studies/trustworthy-ai.html"
+href="https://chalapathikoneni.com/contact.html"
+href="https://chalapathikoneni.com/cv.html"
+href="https://chalapathikoneni.com/engineering.html"
+href="https://chalapathikoneni.com/notes/data-quality-ai.html"
+href="https://chalapathikoneni.com/notes/forecasting-decision-systems.html"
+href="https://chalapathikoneni.com/notes/when-pipelines-succeed.html"
+href="https://chalapathikoneni.com/research.html"
+href="https://chalapathikoneni.com/research/anomaly-detection.html"
+href="https://chalapathikoneni.com/research/authority-free-reconciliation.html"
+href="https://chalapathikoneni.com/research/evidence-quality-telemetry.html"
+href="https://chalapathikoneni.com/research/silent-data-corruption.html"
+href="https://chalapathikoneni.com/service.html"
+href="https://chalapathikoneni.com/speaking.html"
+href="https://chalapathikoneni.com/thinking.html"
+href="https://chalapathikoneni.com/timeline.html"
+href="https://chalapathikoneni.com/writing.html"
+href="https://doi.org/10.64751/ijdim.2025.v4.n4.pp533-543"
+href="https://icdcs2026.icdcs.org/program/industry-event-program/"
+href="https://icdcs2026.icdcs.org/sample-page/technical-committee/"
+href="https://ijdim.com/journal/index.php/ijdim/article/view/274"
+href="https://nexotech2026.in/team.html"
+href="https://www.linkedin.com/in/chalapathi-koneni-b92bab3b"
