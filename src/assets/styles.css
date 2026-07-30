@@ -538,3 +538,119 @@ a:focus-visible, button:focus-visible { outline: 3px solid rgba(21,88,68,.28); o
 @media (max-width: 940px) {
   .two-col, .grid-intro, .article-body { grid-template-columns: 1fr; gap: 34px; }
 }
+
+/* 9.6 refinement: balanced hero, readable recognition, faster-feeling navigation */
+.hero {
+  padding: clamp(64px, 6vw, 90px) 0 clamp(58px, 5vw, 78px);
+}
+.hero-layout {
+  grid-template-columns: minmax(0, 2.25fr) minmax(250px, .75fr);
+  gap: clamp(46px, 6vw, 82px);
+  align-items: center;
+}
+.hero-layout .hero-copy h1 {
+  max-width: 14ch;
+  font-size: clamp(3.15rem, 4.85vw, 5rem);
+  line-height: 1.01;
+  letter-spacing: -.045em;
+}
+.hero .lede {
+  max-width: 42em;
+  font-size: clamp(1.12rem, 1.02rem + .32vw, 1.36rem);
+  line-height: 1.6;
+}
+.hero-portrait {
+  width: min(100%, 320px);
+  aspect-ratio: 4 / 5;
+  justify-self: end;
+  border-radius: 18px;
+  overflow: hidden;
+  box-shadow: 0 16px 38px rgba(23,32,28,.10);
+}
+.hero-portrait img {
+  object-position: center 30%;
+}
+.profile-line {
+  max-width: 760px;
+}
+
+.recognition-band {
+  padding: clamp(56px, 5vw, 76px) 0;
+}
+.recognition-head {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) auto;
+  gap: 40px;
+  align-items: end;
+  margin-bottom: 30px;
+}
+.recognition-head h2 {
+  max-width: 22ch;
+}
+.recognition-head p {
+  max-width: 42em;
+  margin: 14px 0 0;
+  color: #bcc8c1;
+}
+.recognition-all {
+  color: #f5f6f2;
+  font-weight: 680;
+  text-decoration: none;
+  white-space: nowrap;
+}
+.recognition-list {
+  border-top: 1px solid #405049;
+}
+.recognition-row {
+  display: grid;
+  grid-template-columns: 46px minmax(0, 1fr);
+  gap: 20px;
+  align-items: start;
+  padding: 22px 0;
+  border-bottom: 1px solid #405049;
+}
+.recognition-index {
+  padding-top: 4px;
+  color: #9fc8b7;
+  font: 600 .72rem/1 Georgia, serif;
+}
+.recognition-row h3 {
+  margin: 0 0 6px;
+  color: var(--paper);
+  font: 500 clamp(1.18rem, 1.08rem + .25vw, 1.4rem)/1.25 Georgia, serif;
+}
+.recognition-row p {
+  margin: 0;
+  color: #bcc8c1;
+  font-size: .9rem;
+}
+
+@media (max-width: 940px) {
+  .hero-layout {
+    grid-template-columns: minmax(0, 1.55fr) minmax(220px, .65fr);
+    gap: 40px;
+  }
+  .hero-layout .hero-copy h1 {
+    font-size: clamp(3rem, 6.8vw, 4.55rem);
+  }
+  .hero-portrait {
+    width: min(100%, 280px);
+  }
+}
+
+@media (max-width: 720px) {
+  .hero-layout {
+    grid-template-columns: 1fr;
+    gap: 0;
+  }
+  .hero-portrait {
+    display: none;
+  }
+  .recognition-head {
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
+  .recognition-all {
+    white-space: normal;
+  }
+}
