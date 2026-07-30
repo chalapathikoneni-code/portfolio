@@ -1,0 +1,23 @@
+[
+  {
+    "slug": "when-pipelines-succeed",
+    "title": "When every pipeline succeeds and the decision is still wrong",
+    "summary": "A completed workflow proves execution, not semantic agreement.",
+    "visible": true,
+    "order": 1
+  },
+  {
+    "slug": "forecasting-decision-systems",
+    "title": "Forecasting systems are really decision systems",
+    "summary": "The model is only one component in the path from evidence to action.",
+    "visible": true,
+    "order": 2
+  },
+  {
+    "slug": "data-quality-ai",
+    "title": "Why data quality is becoming an AI problem",
+    "summary": "Generative systems make structurally valid semantic errors easier to create and harder to catch.",
+    "visible": true,
+    "order": 3
+  }
+]

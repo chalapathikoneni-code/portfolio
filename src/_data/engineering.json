@@ -1,0 +1,37 @@
+[
+  {
+    "slug": "forecasting-platforms",
+    "title": "Building enterprise forecasting platforms",
+    "summary": "Forecasting is not only a model. It is a decision system that has to keep product, inventory, price, promotion, supplier, and location data aligned.",
+    "visible": true,
+    "order": 1
+  },
+  {
+    "slug": "cloud-modernization",
+    "title": "Modernizing analytical platforms without losing meaning",
+    "summary": "Cloud migration changes infrastructure quickly. Business definitions and operational confidence move more slowly.",
+    "visible": true,
+    "order": 2
+  },
+  {
+    "slug": "data-integrity",
+    "title": "Keeping data trustworthy when systems disagree",
+    "summary": "Validation catches malformed data. Reconciliation deals with records that are valid and still cannot all be true.",
+    "visible": true,
+    "order": 3
+  },
+  {
+    "slug": "observability",
+    "title": "Observability that follows evidence, not only infrastructure",
+    "summary": "Logs and metrics describe system behavior. Investigations also need to know whether the evidence itself is complete and reliable.",
+    "visible": true,
+    "order": 4
+  },
+  {
+    "slug": "trustworthy-ai",
+    "title": "Making AI dependable before model evaluation",
+    "summary": "AI reliability begins with the data path, ownership, context, and controls around the model—not only the model score.",
+    "visible": true,
+    "order": 5
+  }
+]

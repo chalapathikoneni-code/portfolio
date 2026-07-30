@@ -1,0 +1,32 @@
+[
+  {
+    "period": "2006–10",
+    "title": "Transaction and inventory systems",
+    "description": "Early work in retail data and operational integration. Learned that the meaning of inventory depends on timing, state transitions, and reconciliation across systems."
+  },
+  {
+    "period": "2010–12",
+    "title": "Enterprise retail and supply chain",
+    "description": "Expanded into large-scale retail data, forecasting inputs, and cross-domain integration."
+  },
+  {
+    "period": "2012–16",
+    "title": "Finance and supply-chain models",
+    "description": "Worked on analytical systems where business definitions, governance, and repeatability mattered as much as computation."
+  },
+  {
+    "period": "2016–21",
+    "title": "Forecasting, replenishment, and platform modernization",
+    "description": "Engineering around commercial forecasting systems, multi-brand integration, simulation, controls, and early cloud data modernization."
+  },
+  {
+    "period": "2021–now",
+    "title": "Measurement, data reliability, and applied AI",
+    "description": "Enterprise-scale data systems supporting analytics and science, followed by research into silent corruption, observability, reconciliation, and trustworthy AI."
+  },
+  {
+    "period": "2025–now",
+    "title": "Research and professional service",
+    "description": "Publications, conference presentations, reviewing, TPC leadership, and work that turns recurring production failures into testable research questions."
+  }
+]

@@ -1,0 +1,58 @@
+[
+  {
+    "name": "VLDB 2026 Industrial Track",
+    "role": "Industrial Track Program Committee Member",
+    "url": "https://www.vldb.org/2026/call-for-industrial-track.html",
+    "linkLabel": "Official committee listing",
+    "visible": true,
+    "order": 1
+  },
+  {
+    "name": "IEEE ICDCS 2026",
+    "role": "Industry Event Program Committee Member",
+    "url": "https://icdcs2026.icdcs.org/sample-page/technical-committee/",
+    "linkLabel": "Official committee listing",
+    "visible": true,
+    "order": 2
+  },
+  {
+    "name": "Columbia University SAES 2026",
+    "role": "Track Chair",
+    "url": "https://ccae.columbia.edu/content/saes2026-organization-committee",
+    "linkLabel": "Official organization committee",
+    "visible": true,
+    "order": 3
+  },
+  {
+    "name": "IEEE NEXOTECH / ICATI 2026",
+    "role": "Technical Program Committee Chair",
+    "url": "https://nexotech2026.in/team.html",
+    "linkLabel": "Official conference team",
+    "visible": true,
+    "order": 4
+  },
+  {
+    "name": "ACM RecSys 2026",
+    "role": "Program Committee Member",
+    "url": "https://recsys.acm.org/recsys26/committees/",
+    "linkLabel": "Official committee listing",
+    "visible": true,
+    "order": 5
+  },
+  {
+    "name": "IEEE/IFIP DSN 2026",
+    "role": "Industry Track Program Committee Member",
+    "url": "https://dsn2026.github.io/cfindustry.html",
+    "linkLabel": "Industry Track page",
+    "visible": true,
+    "order": 6
+  },
+  {
+    "name": "IEEE ICDM 2026",
+    "role": "Applied Track Reviewer",
+    "url": "https://icdm2026.neu.edu.cn/CallforAppliedTrack/list.htm",
+    "linkLabel": "Applied Track page",
+    "visible": true,
+    "order": 7
+  }
+]

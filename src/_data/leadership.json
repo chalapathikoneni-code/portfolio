@@ -1,0 +1,21 @@
+[
+  {
+    "name": "IEEE NEXOTECH 2026",
+    "role": "TPC Chair",
+    "url": "https://nexotech2026.in/team.html",
+    "linkLabel": "Official listing",
+    "visible": true
+  },
+  {
+    "name": "Columbia University SAES 2026",
+    "role": "Track Chair, Energy Storage Systems for Digital Infrastructure and Markets",
+    "url": "",
+    "visible": true
+  },
+  {
+    "name": "ICATI 2026",
+    "role": "Technical program leadership",
+    "url": "",
+    "visible": true
+  }
+]

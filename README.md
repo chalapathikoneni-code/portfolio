@@ -1,26 +1,24 @@
-# Chalapathi Koneni — Public Website
+# Chalapathi Koneni — Professional Website
 
-Production-ready static website for Cloudflare Pages.
+A static, editable professional website generated from Markdown and JSON.
 
-## Deploy
-1. Push the contents of this folder to a GitHub repository.
-2. In Cloudflare Pages, connect the repository.
-3. Framework preset: **None**.
-4. Build command: leave blank.
-5. Output directory: `/`.
-6. Add the custom domain and confirm HTTPS is active.
+## Build
 
-## Before launch
-- Confirm the final domain. If it is not `chalapathikoneni.com`, replace that domain in HTML canonical tags, `sitemap.xml`, and `robots.txt`.
-- Review public affiliations and titles for exact preferred wording.
-- Add a downloadable PDF CV only after the public version is approved.
+```bash
+npm install
+npm run build
+npm run check
+```
 
-## Quality checks included
-- Responsive navigation
-- Keyboard-accessible skip link and menu
-- Internal link test
-- SEO titles/descriptions/canonical tags
-- Open Graph metadata
-- Sitemap, robots.txt, favicon, 404 page
-- No third-party JavaScript or tracking
-- No confidential project details
+The deployable site is generated in `_site/`. Cloudflare Pages can use `npm run build` as the build command and `_site` as the output directory.
+
+## Content architecture
+
+- `src/_data/evidence.json` — professional service and recognition
+- `src/_data/research.json` — publications and accepted papers
+- `src/_data/speaking.json` — talks and keynotes
+- `src/_data/engineering.json` — engineering case studies
+- `src/pages/home.md` — homepage narrative
+- `src/assets/styles.css` — visual system
+
+External links are labeled according to what they actually verify. Direct listings receive a small “Verified” marker on the service page; event and publisher links are not presented as proof of the role.

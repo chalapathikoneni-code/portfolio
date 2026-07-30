@@ -1,0 +1,26 @@
+[
+  {
+    "label": "Home",
+    "url": "/"
+  },
+  {
+    "label": "Ideas",
+    "url": "/thinking.html"
+  },
+  {
+    "label": "Engineering",
+    "url": "/engineering.html"
+  },
+  {
+    "label": "Research",
+    "url": "/research.html"
+  },
+  {
+    "label": "Speaking",
+    "url": "/speaking.html"
+  },
+  {
+    "label": "Service",
+    "url": "/service.html"
+  }
+]
