@@ -3,13 +3,13 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width,initial-scale=1">
-  <title>Keeping data trustworthy when systems disagree | Chalapathi Koneni</title>
-  <meta name="description" content="Validation catches malformed data. Reconciliation handles valid records that cannot all be true.">
+  <title>Reconciling valid records when enterprise systems disagree | Chalapathi Koneni</title>
+  <meta name="description" content="Schema-valid records can still describe incompatible business realities.">
   <meta name="theme-color" content="#f5f2ea">
   <link rel="canonical" href="https://chalapathikoneni.com/case-studies/data-integrity.html">
   <meta property="og:type" content="website">
-  <meta property="og:title" content="Keeping data trustworthy when systems disagree | Chalapathi Koneni">
-  <meta property="og:description" content="Validation catches malformed data. Reconciliation handles valid records that cannot all be true.">
+  <meta property="og:title" content="Reconciling valid records when enterprise systems disagree | Chalapathi Koneni">
+  <meta property="og:description" content="Schema-valid records can still describe incompatible business realities.">
   <meta property="og:image" content="https://chalapathikoneni.com/assets/social-card.png">
   <meta property="og:image:width" content="1200">
   <meta property="og:image:height" content="630">
@@ -23,16 +23,17 @@
 <a class="skip" href="#main">Skip to content</a>
 <header class="site-header"><div class="wrap nav">
   <a class="brand" href="/">Chalapathi Koneni<small>Data engineering · Distributed systems · Applied AI</small></a>
-  <button class="menu" aria-expanded="false" aria-label="Open navigation">Menu</button>
   <nav class="nav-links" aria-label="Primary"><a href="/">Home</a><a href="/thinking.html">Ideas</a><a href="/engineering.html">Engineering</a><a href="/research.html">Research</a><a href="/speaking.html">Speaking</a><a href="/service.html">Service</a></nav>
 </div></header>
-<main id="main"><header class="page-hero"><div class="wrap"><div class="eyebrow">Engineering case study</div><h1>Keeping data trustworthy when systems disagree</h1><p>Validation catches malformed data. Reconciliation handles valid records that cannot all be true.</p></div></header>
+<main id="main"><header class="page-hero"><div class="wrap"><div class="eyebrow">Engineering case study</div><h1>Reconciling valid records when enterprise systems disagree</h1><p>Validation catches malformed data. Reconciliation handles records that are individually valid and still cannot all be true.</p></div></header>
 <section><div class="wrap article-layout"><aside class="toc"><a href="/engineering.html">← All case studies</a></aside><article class="prose">
-<p>Many production incidents are not schema failures. Every record is well formed, yet systems disagree about inventory, demand, order state, or time.</p>
+<p>Many consequential incidents are not schema failures. Every record is well formed, yet systems disagree about inventory, demand, order state, spend, or time.</p>
 <h2>What made it hard</h2>
-<p>Different systems may each be internally consistent. The conflict appears only when their claims are compared in business context.</p>
+<p>Each source may be internally consistent. The conflict becomes visible only when claims are compared in business and temporal context. Choosing one source too early can erase the evidence needed to understand the failure.</p>
 <h2>How I approached it</h2>
-<p>I used layered controls: technical audits, business-state balancing, temporal checks, error history, proactive alerts, and restart-aware recovery. The objective was to preserve evidence, not hide disagreement behind a single status.</p>
+<p>I used layered controls: technical audits, business-state balancing, ratio and distribution checks, temporal validation, error history, proactive alerts, and restart-aware recovery. The system preserved disagreement as evidence instead of hiding it behind a single status.</p>
+<h2>Selected impact</h2>
+<p>The approach made cross-system disagreement observable through explicit balancing, exception history, and restart-aware controls. Public descriptions intentionally omit internal business-performance figures.</p>
 <h2>Lesson I still use</h2>
 <p>Data quality is not a final report. It is part of control flow, ownership, and recovery.</p>
 </article></div></section></main>

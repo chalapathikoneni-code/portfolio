@@ -1,20 +1,24 @@
 ---
-title: Observability that follows evidence, not only infrastructure
-description: An incident is difficult to explain when the telemetry used to explain it is incomplete.
+title: Making incident evidence measurable
+description: Incident analysis must measure whether the telemetry used to explain a failure is itself reliable.
 permalink: case-studies/observability.html
 section: Engineering case study
 ---
-<header class="page-hero"><div class="wrap"><div class="eyebrow">Engineering case study</div><h1>Observability that follows evidence, not only infrastructure</h1><p>An incident is difficult to explain when the telemetry used to explain it is incomplete.</p></div></header>
+<header class="page-hero"><div class="wrap"><div class="eyebrow">Engineering case study</div><h1>Making incident evidence measurable</h1><p>Logs, metrics, and traces describe system behavior. They do not automatically prove that the available evidence is complete.</p></div></header>
 <section><div class="wrap article-layout"><aside class="toc"><a href="/engineering.html">← All case studies</a></aside><article class="prose">
-Logs, metrics, and traces describe system behavior. They do not automatically prove that the evidence itself is complete, timely, or internally consistent.
+Incident analysis becomes overconfident when missing or delayed telemetry is interpreted as absence of failure.
 
 ## What made it hard
 
-Incident analysis can become overconfident when missing or delayed telemetry is treated as absence of failure.
+The same infrastructure used to observe a system can degrade during the incident it is supposed to explain. Root-cause analysis therefore needs to reason about both the system and the quality of the evidence.
 
-## How I approach it
+## How I approached it
 
-I separate observations about the system from observations about evidence quality. That includes tracking gaps, delays, contradictions, and recovery of the telemetry path itself.
+I separated observations about system behavior from observations about evidence quality. The design tracked gaps, delays, contradictions, provenance, and recovery of the telemetry path itself.
+
+## Selected impact
+
+The resulting work was evaluated on streaming telemetry at approximately 15 TB per day and reported 0.983 recall with 99.1% integrity recovery. It was accepted as research on evidence-quality telemetry for cloud incident response.
 
 ## Lesson I still use
 

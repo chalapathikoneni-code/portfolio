@@ -1,0 +1,28 @@
+{
+  "policy": "Only claims classified public, published, or approved_historical may be rendered. confidential entries must never be displayed.",
+  "blocked_claims": [
+    "Amazon data availability reduction from 19 weeks to 2 weeks",
+    "Amazon 12+ markets",
+    "Amazon 95%+ coverage",
+    "Amazon spend variance reduction from approximately 57% to below 5%",
+    "Amazon more than $1 billion supported measurement",
+    "Amazon 3+ PB/day operational scale"
+  ],
+  "approved_sources": [
+    {
+      "category": "approved_historical",
+      "organization": "Macy's",
+      "claim": "Bluemercury source-mapping evidence documented more than 500 selected fields."
+    },
+    {
+      "category": "approved_historical",
+      "organization": "Macy's",
+      "claim": "The integration supported recurring daily and weekly workflows across multiple location types."
+    },
+    {
+      "category": "published",
+      "organization": "Peer-reviewed research",
+      "claim": "Use evaluation metrics only when they appear in a public paper or official publication link."
+    }
+  ]
+}

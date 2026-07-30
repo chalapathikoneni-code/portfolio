@@ -3,13 +3,13 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width,initial-scale=1">
-  <title>Observability that follows evidence, not only infrastructure | Chalapathi Koneni</title>
-  <meta name="description" content="An incident is difficult to explain when the telemetry used to explain it is incomplete.">
+  <title>Making incident evidence measurable | Chalapathi Koneni</title>
+  <meta name="description" content="Incident analysis must measure whether the telemetry used to explain a failure is itself reliable.">
   <meta name="theme-color" content="#f5f2ea">
   <link rel="canonical" href="https://chalapathikoneni.com/case-studies/observability.html">
   <meta property="og:type" content="website">
-  <meta property="og:title" content="Observability that follows evidence, not only infrastructure | Chalapathi Koneni">
-  <meta property="og:description" content="An incident is difficult to explain when the telemetry used to explain it is incomplete.">
+  <meta property="og:title" content="Making incident evidence measurable | Chalapathi Koneni">
+  <meta property="og:description" content="Incident analysis must measure whether the telemetry used to explain a failure is itself reliable.">
   <meta property="og:image" content="https://chalapathikoneni.com/assets/social-card.png">
   <meta property="og:image:width" content="1200">
   <meta property="og:image:height" content="630">
@@ -23,16 +23,17 @@
 <a class="skip" href="#main">Skip to content</a>
 <header class="site-header"><div class="wrap nav">
   <a class="brand" href="/">Chalapathi Koneni<small>Data engineering · Distributed systems · Applied AI</small></a>
-  <button class="menu" aria-expanded="false" aria-label="Open navigation">Menu</button>
   <nav class="nav-links" aria-label="Primary"><a href="/">Home</a><a href="/thinking.html">Ideas</a><a href="/engineering.html">Engineering</a><a href="/research.html">Research</a><a href="/speaking.html">Speaking</a><a href="/service.html">Service</a></nav>
 </div></header>
-<main id="main"><header class="page-hero"><div class="wrap"><div class="eyebrow">Engineering case study</div><h1>Observability that follows evidence, not only infrastructure</h1><p>An incident is difficult to explain when the telemetry used to explain it is incomplete.</p></div></header>
+<main id="main"><header class="page-hero"><div class="wrap"><div class="eyebrow">Engineering case study</div><h1>Making incident evidence measurable</h1><p>Logs, metrics, and traces describe system behavior. They do not automatically prove that the available evidence is complete.</p></div></header>
 <section><div class="wrap article-layout"><aside class="toc"><a href="/engineering.html">← All case studies</a></aside><article class="prose">
-<p>Logs, metrics, and traces describe system behavior. They do not automatically prove that the evidence itself is complete, timely, or internally consistent.</p>
+<p>Incident analysis becomes overconfident when missing or delayed telemetry is interpreted as absence of failure.</p>
 <h2>What made it hard</h2>
-<p>Incident analysis can become overconfident when missing or delayed telemetry is treated as absence of failure.</p>
-<h2>How I approach it</h2>
-<p>I separate observations about the system from observations about evidence quality. That includes tracking gaps, delays, contradictions, and recovery of the telemetry path itself.</p>
+<p>The same infrastructure used to observe a system can degrade during the incident it is supposed to explain. Root-cause analysis therefore needs to reason about both the system and the quality of the evidence.</p>
+<h2>How I approached it</h2>
+<p>I separated observations about system behavior from observations about evidence quality. The design tracked gaps, delays, contradictions, provenance, and recovery of the telemetry path itself.</p>
+<h2>Selected impact</h2>
+<p>The resulting work was evaluated on streaming telemetry at approximately 15 TB per day and reported 0.983 recall with 99.1% integrity recovery. It was accepted as research on evidence-quality telemetry for cloud incident response.</p>
 <h2>Lesson I still use</h2>
 <p>Observability should state not only what happened, but how much confidence the available evidence supports.</p>
 </article></div></section></main>

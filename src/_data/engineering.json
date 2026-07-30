@@ -1,36 +1,36 @@
 [
   {
     "slug": "forecasting-platforms",
-    "title": "Building enterprise forecasting platforms",
-    "summary": "Forecasting is not only a model. It is a decision system that has to keep product, inventory, price, promotion, supplier, and location data aligned.",
+    "title": "Integrating forecasting and replenishment across a newly acquired retailer",
+    "summary": "Helped connect Bluemercury\u2019s separate retail data estate to an enterprise forecasting and replenishment workflow through secure ingestion, semantic mapping, history construction, audits, and purchase-order interfaces.",
     "visible": true,
     "order": 1
   },
   {
     "slug": "cloud-modernization",
-    "title": "Modernizing analytical platforms without losing meaning",
-    "summary": "Cloud migration changes infrastructure quickly. Business definitions and operational confidence move more slowly.",
+    "title": "Advancing a governed Teradata-to-BigQuery modernization",
+    "summary": "Contributed to an early cloud-data modernization effort that paired migration engineering with source-key analysis, partitioning, change detection, reconciliation, access governance, and cost observability.",
     "visible": true,
     "order": 2
   },
   {
     "slug": "data-integrity",
-    "title": "Keeping data trustworthy when systems disagree",
-    "summary": "Validation catches malformed data. Reconciliation deals with records that are valid and still cannot all be true.",
+    "title": "Reconciling valid records when enterprise systems disagree",
+    "summary": "Developed layered controls for technical audits, business-state balancing, temporal checks, proactive alerts, and restart-aware recovery rather than treating schema validity as proof of correctness.",
     "visible": true,
     "order": 3
   },
   {
     "slug": "observability",
-    "title": "Observability that follows evidence, not only infrastructure",
-    "summary": "Logs and metrics describe system behavior. Investigations also need to know whether the evidence itself is complete and reliable.",
+    "title": "Making incident evidence measurable",
+    "summary": "Extended observability beyond infrastructure health by tracking whether telemetry was complete, timely, contradictory, and recoverable\u2014the basis for accepted research with published evaluation results.",
     "visible": true,
     "order": 4
   },
   {
     "slug": "trustworthy-ai",
-    "title": "Making AI dependable before model evaluation",
-    "summary": "AI reliability begins with the data path, ownership, context, and controls around the model—not only the model score.",
+    "title": "Governing AI-assisted data standardization",
+    "summary": "Designed controls around context, provenance, ownership, review, and validation so AI-assisted standardization could support enterprise workflows without hiding uncertainty.",
     "visible": true,
     "order": 5
   }

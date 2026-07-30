@@ -1,20 +1,24 @@
 ---
-title: Keeping data trustworthy when systems disagree
-description: Validation catches malformed data. Reconciliation handles valid records that cannot all be true.
+title: Reconciling valid records when enterprise systems disagree
+description: Schema-valid records can still describe incompatible business realities.
 permalink: case-studies/data-integrity.html
 section: Engineering case study
 ---
-<header class="page-hero"><div class="wrap"><div class="eyebrow">Engineering case study</div><h1>Keeping data trustworthy when systems disagree</h1><p>Validation catches malformed data. Reconciliation handles valid records that cannot all be true.</p></div></header>
+<header class="page-hero"><div class="wrap"><div class="eyebrow">Engineering case study</div><h1>Reconciling valid records when enterprise systems disagree</h1><p>Validation catches malformed data. Reconciliation handles records that are individually valid and still cannot all be true.</p></div></header>
 <section><div class="wrap article-layout"><aside class="toc"><a href="/engineering.html">← All case studies</a></aside><article class="prose">
-Many production incidents are not schema failures. Every record is well formed, yet systems disagree about inventory, demand, order state, or time.
+Many consequential incidents are not schema failures. Every record is well formed, yet systems disagree about inventory, demand, order state, spend, or time.
 
 ## What made it hard
 
-Different systems may each be internally consistent. The conflict appears only when their claims are compared in business context.
+Each source may be internally consistent. The conflict becomes visible only when claims are compared in business and temporal context. Choosing one source too early can erase the evidence needed to understand the failure.
 
 ## How I approached it
 
-I used layered controls: technical audits, business-state balancing, temporal checks, error history, proactive alerts, and restart-aware recovery. The objective was to preserve evidence, not hide disagreement behind a single status.
+I used layered controls: technical audits, business-state balancing, ratio and distribution checks, temporal validation, error history, proactive alerts, and restart-aware recovery. The system preserved disagreement as evidence instead of hiding it behind a single status.
+
+## Selected impact
+
+The approach made cross-system disagreement observable through explicit balancing, exception history, and restart-aware controls. Public descriptions intentionally omit internal business-performance figures.
 
 ## Lesson I still use
 

@@ -12,7 +12,8 @@
     "url": "https://www.vldb.org/2026/call-for-industrial-track.html",
     "linkLabel": "Official committee listing",
     "homepageFeature": true,
-    "verification": "direct"
+    "verification": "direct",
+    "significance": "Selected to review industrial research for a major international venue in data management and database systems."
   },
   {
     "id": "icdm-2026",
@@ -27,7 +28,8 @@
     "url": "https://icdm2026.neu.edu.cn/CallforAppliedTrack/list.htm",
     "linkLabel": "Applied Track page",
     "homepageFeature": false,
-    "verification": "related"
+    "verification": "related",
+    "significance": "Invited to assess applied research connecting data-mining methods with real operational problems."
   },
   {
     "id": "recsys-2026",
@@ -42,7 +44,8 @@
     "url": "https://recsys.acm.org/recsys26/committees/",
     "linkLabel": "Official committee listing",
     "homepageFeature": false,
-    "verification": "direct"
+    "verification": "direct",
+    "significance": "Selected to review research for the ACM community focused on recommender systems."
   },
   {
     "id": "dsn-2026",
@@ -57,7 +60,8 @@
     "url": "https://dsn2026.github.io/cfindustry.html",
     "linkLabel": "Industry Track page",
     "homepageFeature": false,
-    "verification": "related"
+    "verification": "related",
+    "significance": "Selected for industry-track review service in dependable systems and networks."
   },
   {
     "id": "icdcs-2026",
@@ -72,7 +76,8 @@
     "url": "https://icdcs2026.icdcs.org/sample-page/technical-committee/",
     "linkLabel": "Official committee listing",
     "homepageFeature": true,
-    "verification": "direct"
+    "verification": "direct",
+    "significance": "Selected to evaluate industry work for an established international conference on distributed computing systems."
   },
   {
     "id": "bigdata-2026",
@@ -87,7 +92,8 @@
     "url": "https://bigdataieee.org/BigData2026/",
     "linkLabel": "Conference site",
     "homepageFeature": false,
-    "verification": "related"
+    "verification": "related",
+    "significance": "Program service for an international IEEE venue focused on large-scale data systems and analytics."
   },
   {
     "id": "columbia-saes-2026",
@@ -102,7 +108,8 @@
     "url": "https://ccae.columbia.edu/content/saes2026-organization-committee",
     "linkLabel": "Official organization committee",
     "homepageFeature": true,
-    "verification": "direct"
+    "verification": "direct",
+    "significance": "Responsible for shaping a technical track, coordinating its program, and supporting the quality of the invited sessions."
   },
   {
     "id": "nexotech-2026",
@@ -117,7 +124,8 @@
     "url": "https://nexotech2026.in/team.html",
     "linkLabel": "Official conference team",
     "homepageFeature": true,
-    "verification": "direct"
+    "verification": "direct",
+    "significance": "Technical-program leadership role overseeing review quality and conference content across an IEEE-affiliated event."
   },
   {
     "id": "waica-2026",
@@ -132,7 +140,8 @@
     "url": "https://waica2026.worldaic.com.cn/committees/",
     "linkLabel": "Official committee listing",
     "homepageFeature": false,
-    "verification": "direct"
+    "verification": "direct",
+    "significance": "Selected for academic program service in an international artificial-intelligence forum."
   },
   {
     "id": "gulfhe",
@@ -147,7 +156,8 @@
     "url": "https://gulfhe.com/industry-leaders/",
     "linkLabel": "Industry leaders page",
     "homepageFeature": false,
-    "verification": "direct"
+    "verification": "direct",
+    "significance": "External recognition for industry leadership and contribution to higher-education communities."
   },
   {
     "id": "mit-hacks",
@@ -162,7 +172,8 @@
     "url": "https://www.csail.mit.edu/event/agentic-ai-hackathon",
     "linkLabel": "Event site",
     "homepageFeature": false,
-    "verification": "event"
+    "verification": "event",
+    "significance": "Evaluated applied agentic-AI projects and provided technical feedback to participating teams."
   },
   {
     "id": "la-hacks",
@@ -177,7 +188,8 @@
     "url": "https://lahacks.com/",
     "linkLabel": "Event site",
     "homepageFeature": false,
-    "verification": "event"
+    "verification": "event",
+    "significance": "Evaluated student innovation projects and provided technical judging feedback."
   },
   {
     "id": "ugahacks-11",
@@ -192,7 +204,8 @@
     "url": "https://ugahacks-11.devpost.com/",
     "linkLabel": "Event site",
     "homepageFeature": false,
-    "verification": "event"
+    "verification": "event",
+    "significance": "Evaluated student-built technology projects at a university hackathon."
   },
   {
     "id": "citrushack-2026",
@@ -207,7 +220,8 @@
     "url": "https://citrus-hack-2026.devpost.com/",
     "linkLabel": "Event site",
     "homepageFeature": false,
-    "verification": "event"
+    "verification": "event",
+    "significance": "Evaluated student innovation projects for an ACM university community."
   },
   {
     "id": "jacks-hack",
@@ -222,7 +236,8 @@
     "url": "",
     "linkLabel": "",
     "homepageFeature": false,
-    "verification": "unlinked"
+    "verification": "unlinked",
+    "significance": ""
   },
   {
     "id": "crc-press",
@@ -237,6 +252,7 @@
     "url": "https://www.routledge.com/",
     "linkLabel": "Publisher site",
     "homepageFeature": false,
-    "verification": "publisher"
+    "verification": "publisher",
+    "significance": "Reviews technical manuscripts for clarity, rigor, relevance, and practical contribution."
   }
 ]

@@ -251,9 +251,34 @@ section h2 { margin: 0 0 20px; font: 500 var(--step-3)/1.08 Georgia, serif; lett
 }
 
 @media (max-width: 940px) {
-  .nav-links { display: none; position: absolute; top: 91px; left: 0; right: 0; padding: 22px 24px; border-bottom: 1px solid var(--line); background: var(--paper); flex-direction: column; align-items: flex-start; font-size: 1rem; }
-  .nav-links.open { display: flex; }
-  .menu { display: block; }
+  .nav {
+    min-height: auto;
+    padding: 16px 0 0;
+    flex-wrap: wrap;
+    gap: 13px;
+  }
+  .brand { width: 100%; }
+  .nav-links {
+    display: flex;
+    width: 100%;
+    justify-content: flex-start;
+    gap: 24px;
+    padding: 0 0 13px;
+    overflow-x: auto;
+    overscroll-behavior-inline: contain;
+    scroll-snap-type: inline proximity;
+    scrollbar-width: none;
+    -webkit-overflow-scrolling: touch;
+    font-size: 0.94rem;
+  }
+  .nav-links::-webkit-scrollbar { display: none; }
+  .nav-links a {
+    flex: 0 0 auto;
+    padding: 4px 0 7px;
+    border-bottom: 2px solid transparent;
+    scroll-snap-align: start;
+  }
+  .nav-links a[aria-current="page"] { border-bottom-color: var(--accent); }
   .hero-layout { grid-template-columns: 1fr; gap: 44px; }
   .hero-layout .hero-copy h1 { max-width: 12ch; font-size: clamp(3.45rem, 9vw, 5.4rem); }
   .hero .lede { max-width: 40em; }
@@ -268,10 +293,10 @@ section h2 { margin: 0 0 20px; font: 500 var(--step-3)/1.08 Georgia, serif; lett
 
 @media (max-width: 640px) {
   .wrap { width: min(calc(100% - 28px), var(--page)); }
-  .nav { min-height: 80px; }
+  .nav { padding-top: 13px; gap: 10px; }
   .brand { font-size: 1.23rem; }
   .brand small { margin-top: 5px; font-size: 0.58rem; }
-  .nav-links { top: 79px; }
+  .nav-links { gap: 20px; padding-bottom: 11px; font-size: 0.9rem; }
   .hero { padding: 58px 0 52px; }
   .hero-layout { gap: 34px; }
   .hero-layout .hero-copy h1 { max-width: 11ch; font-size: clamp(3rem, 14vw, 4.4rem); }
@@ -653,4 +678,94 @@ a:focus-visible, button:focus-visible { outline: 3px solid rgba(21,88,68,.28); o
   .recognition-all {
     white-space: normal;
   }
+}
+
+/* 9.7 refinement: stronger header and responsive portrait placement */
+.brand {
+  font-size: clamp(1.62rem, 1.38rem + .55vw, 2rem);
+}
+.nav-links {
+  font-size: clamp(1rem, .91rem + .22vw, 1.13rem);
+  gap: clamp(22px, 1.8vw, 34px);
+}
+.hero-portrait {
+  align-self: start;
+  transform: translate(18px, -24px);
+}
+
+@media (max-width: 1160px) {
+  .hero-portrait {
+    transform: translate(8px, -14px);
+  }
+}
+
+@media (max-width: 720px) {
+  .brand {
+    font-size: clamp(1.6rem, 6.4vw, 1.9rem);
+  }
+  .menu {
+    font-size: 1.05rem;
+    padding: 10px 17px;
+  }
+  .hero-layout {
+    gap: 34px;
+  }
+  .hero-portrait {
+    display: block;
+    width: min(72vw, 280px);
+    justify-self: center;
+    align-self: auto;
+    transform: none;
+    margin: 4px auto 0;
+    border-radius: 16px;
+  }
+}
+
+@media (max-width: 420px) {
+  .brand {
+    font-size: 1.52rem;
+  }
+  .menu {
+    font-size: 1rem;
+  }
+  .hero-portrait {
+    width: min(76vw, 260px);
+  }
+}
+
+/* 9.8 — significance, measured impact, and contact refinement */
+.recognition-role { margin-bottom: .3rem; }
+.recognition-significance,
+.service-significance {
+  max-width: 70ch;
+  color: var(--muted);
+  font-size: .96rem;
+  line-height: 1.55;
+}
+.service-significance { margin-top: .4rem; }
+.home-contact {
+  padding: clamp(4.5rem, 8vw, 7.5rem) 0;
+  border-top: 1px solid var(--line);
+  background: var(--ink);
+  color: var(--paper);
+}
+.home-contact-inner {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) auto;
+  gap: 3rem;
+  align-items: end;
+}
+.home-contact h2 {
+  max-width: 760px;
+  margin: .6rem 0 1rem;
+  color: inherit;
+}
+.home-contact p { max-width: 68ch; color: rgba(255,255,255,.72); }
+.home-contact .eyebrow { color: rgba(255,255,255,.62); }
+.home-contact-actions { display: flex; gap: 1.25rem; align-items: center; white-space: nowrap; }
+.home-contact .button { background: var(--paper); color: var(--ink); }
+.home-contact .text-link { color: var(--paper); }
+@media (max-width: 760px) {
+  .home-contact-inner { grid-template-columns: 1fr; gap: 1.75rem; align-items: start; }
+  .home-contact-actions { flex-wrap: wrap; }
 }
