@@ -1,48 +1,42 @@
 [
   {
     "year": "2026",
-    "title": "Data Quality in the Age of AI",
-    "description": "Keynote on why reliable AI starts with data architecture, operational controls, and the evidence surrounding the model.",
-    "url": "",
-    "linkLabel": "",
+    "title": "Building Reliable AI Systems at Scale: Architecture Beyond Models",
+    "description": "Keynote on enterprise AI architecture, LLMOps, observability, and the controls required beyond model quality.",
+    "url": "https://www.slideshare.net/slideshow/building-reliable-ai-systems-at-scale-enterprise-ai-architecture-llmops-observability/287421410",
+    "linkLabel": "View keynote slides",
     "visible": true,
-    "audience": "Engineering leaders, researchers, and practitioners",
-    "takeaway": "Reliable AI depends on data architecture, operational controls, provenance, and evidence\u2014not model quality alone."
+    "audience": "IEEE NEXOTECH 2026 keynote audience",
+    "takeaway": "Reliable AI requires architecture, evidence, ownership, and recovery paths beyond the model."
   },
   {
     "year": "2026",
-    "title": "Invited talks on dependable data and AI systems",
-    "description": "Sessions for engineering and research audiences on data quality, distributed systems, observability, and applied AI.",
-    "url": "",
+    "title": "Data Quality in the Age of AI: Detecting and Preventing Silent Data Corruption",
+    "description": "A practitioner session on anomaly detection, observability, and governance patterns that surface silent data failures before they reach models and decisions.",
+    "url": "https://dama-ga.org/event-6599950",
+    "linkLabel": "Official DAMA Georgia event",
     "visible": true,
-    "audience": "Academic and professional engineering audiences",
-    "takeaway": "Silent failure modes become manageable when teams make uncertainty, disagreement, and evidence quality observable."
+    "audience": "DAMA Georgia data-management practitioners and leaders",
+    "takeaway": "Schema checks are not enough when data remains structurally valid but semantically wrong."
   },
   {
     "year": "2026",
-    "title": "DAMA Atlanta",
-    "description": "A practitioner-focused session connecting data-quality architecture, operational controls, and AI-era governance.",
-    "url": "",
+    "title": "Why Production AI Systems Fail: From Data and Time",
+    "description": "A technical session on temporal drift, data quality, and operational failure modes in production AI systems.",
+    "url": "https://www.slideshare.net/slideshow/why-production-ai-systems-fail-from-data-and-time-icctac-2026/287452842",
+    "linkLabel": "View technical-session slides",
     "visible": true,
-    "audience": "Data management practitioners and leaders",
-    "takeaway": "Data-quality architecture must connect validation with ownership, recovery, and AI-era governance."
+    "audience": "ICCTAC 2026 technical-session audience",
+    "takeaway": "Production AI failures often begin in data and time semantics rather than in the model itself."
   },
   {
-    "year": "2024",
-    "title": "Measurement readiness for science and engineering",
-    "description": "An internal engineering summit talk focused on reducing the distance between raw enterprise data and trustworthy model inputs.",
-    "url": "",
+    "year": "2026",
+    "title": "GenAI for Data Engineering: How Real-Time Data Platforms Power Live Experiences",
+    "description": "An invited technical talk connecting real-time data platforms, dependable pipelines, and GenAI-enabled experiences.",
+    "url": "https://www.slideshare.net/slideshow/genai-for-data-engineering-how-real-time-data-platforms-power-live-experiences/286686112",
+    "linkLabel": "View invited-talk slides",
     "visible": true,
-    "audience": "Internal science and engineering audience",
-    "takeaway": "Trustworthy analysis requires reducing the distance between raw enterprise data and decision-ready evidence."
-  },
-  {
-    "year": "2022",
-    "title": "Petabyte-scale data engineering and cost discipline",
-    "description": "An engineering summit session on operating large analytical workloads with stronger efficiency, ownership, and observability.",
-    "url": "",
-    "visible": true,
-    "audience": "Internal data engineering audience",
-    "takeaway": "Scale is sustainable only when efficiency, ownership, observability, and operating discipline are designed together."
+    "audience": "Global Horizon: USA Edition, Kristu Jayanti Institute of Technology",
+    "takeaway": "Real-time AI experiences depend on dependable data movement, context, and operational controls."
   }
 ]

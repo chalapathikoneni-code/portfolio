@@ -4,10 +4,6 @@
     "url": "/"
   },
   {
-    "label": "Philosophy",
-    "url": "/philosophy.html"
-  },
-  {
     "label": "Engineering",
     "url": "/engineering.html"
   },
@@ -22,5 +18,13 @@
   {
     "label": "Service",
     "url": "/service.html"
+  },
+  {
+    "label": "Judging",
+    "url": "/judging.html"
+  },
+  {
+    "label": "Philosophy",
+    "url": "/philosophy.html"
   }
 ]

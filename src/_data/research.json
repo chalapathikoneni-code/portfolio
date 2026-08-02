@@ -1,24 +1,24 @@
 [
   {
-    "slug": "silent-data-corruption",
-    "title": "Silent data corruption in GenAI-augmented pipelines",
-    "question": "Why can a pipeline remain structurally valid while its business meaning becomes wrong?",
+    "slug": "evidence-quality-telemetry",
+    "title": "Evidence-Quality Telemetry for Cloud Incident Response",
+    "question": "How should incident analysis account for missing, delayed, drifting, or contradictory telemetry?",
     "topics": [
-      "trust",
-      "ai"
+      "observability",
+      "trust"
     ],
-    "status": "accepted",
+    "status": "published",
     "public": true,
     "verified": true,
     "order": 1,
-    "venue": "IEEE ICDCS 2026 Industry Track",
-    "url": "https://icdcs2026.icdcs.org/program/industry-event-program/",
-    "linkLabel": "Conference program"
+    "venue": "IEEE",
+    "url": "https://ieeexplore.ieee.org/document/11459097",
+    "linkLabel": "IEEE Xplore"
   },
   {
     "slug": "anomaly-detection",
-    "title": "Cloud-native anomaly detection and data-quality validation",
-    "question": "Can anomaly detection and pre-model data controls be designed as one operational workflow?",
+    "title": "A Cloud-Native Approach to Statistical Anomaly Detection and Automated Data Quality Validation",
+    "question": "Can anomaly detection and automated data-quality controls be designed as one operational workflow?",
     "topics": [
       "trust",
       "observability"
@@ -27,23 +27,39 @@
     "public": true,
     "verified": true,
     "order": 2,
-    "venue": "International Journal of Data Informatics and Intelligent Computing",
-    "url": "https://doi.org/10.64751/ijdim.2025.v4.n4.pp533-543",
+    "venue": "International Journal of Data Science and IoT Management System",
+    "url": "https://ijdim.com/journal/index.php/ijdim/article/view/274",
     "linkLabel": "Published article"
   },
   {
-    "slug": "evidence-quality-telemetry",
-    "title": "Evidence-quality telemetry for incident response",
-    "question": "How should incident analysis account for missing, delayed, or contradictory telemetry?",
+    "slug": "silent-data-corruption",
+    "title": "Silent Data Corruption in Distributed GenAI-Augmented Data Pipelines",
+    "question": "Why can a pipeline remain structurally valid while its business meaning becomes wrong?",
     "topics": [
-      "observability",
-      "trust"
+      "trust",
+      "ai"
     ],
     "status": "accepted",
     "public": true,
     "verified": true,
     "order": 3,
-    "venue": "ISDFS 2026",
+    "venue": "IEEE ICDCS 2026 Industry Track",
+    "url": "",
+    "linkLabel": ""
+  },
+  {
+    "slug": "semcorbench",
+    "title": "SemCorBench: Measuring Semantic Corruption in LLM-Derived Data Artifacts",
+    "question": "How can semantic corruption in LLM-derived data artifacts be measured reproducibly?",
+    "topics": [
+      "trust",
+      "ai"
+    ],
+    "status": "accepted",
+    "public": true,
+    "verified": true,
+    "order": 4,
+    "venue": "ASONAM 2026 Industry Track",
     "url": "",
     "linkLabel": ""
   }
