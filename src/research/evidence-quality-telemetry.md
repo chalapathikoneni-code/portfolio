@@ -18,6 +18,14 @@ Treat telemetry quality as a first-class signal. Incident response should reason
 
 Without evidence-quality controls, a response system may produce confident explanations from incomplete observations.
 
+## Contribution
+
+The work treats completeness, delay, contradiction, provenance, and recovery of telemetry as measurable properties rather than assuming the observation layer is always reliable.
+
+## Limitations
+
+Published evaluation results describe the reported experimental setting. Different systems may require different evidence signals, thresholds, and recovery policies.
+
 ## Status
 
 Accepted public research work on distributed stream processing and evidence integrity.

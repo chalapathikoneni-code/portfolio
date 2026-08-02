@@ -1,36 +1,36 @@
 [
   {
     "slug": "forecasting-platforms",
-    "title": "Integrating forecasting and replenishment across a newly acquired retailer",
-    "summary": "Helped connect Bluemercury\u2019s separate retail data estate to an enterprise forecasting and replenishment workflow through secure ingestion, semantic mapping, history construction, audits, and purchase-order interfaces.",
+    "title": "Modernizing forecasting across organizational boundaries",
+    "summary": "A historical retail case study in translating source semantics, reconstructing demand history, and replacing manual replenishment with governed forecasting, audit, and ordering workflows.",
     "visible": true,
     "order": 1
   },
   {
     "slug": "cloud-modernization",
-    "title": "Advancing a governed Teradata-to-BigQuery modernization",
-    "summary": "Contributed to an early cloud-data modernization effort that paired migration engineering with source-key analysis, partitioning, change detection, reconciliation, access governance, and cost observability.",
+    "title": "Moving enterprise analytics to a governed cloud data platform",
+    "summary": "A historical modernization case study in source-key analysis, change detection, reconciliation, access governance, and operational confidence during a Teradata-to-BigQuery transition.",
     "visible": true,
     "order": 2
   },
   {
     "slug": "data-integrity",
-    "title": "Reconciling valid records when enterprise systems disagree",
-    "summary": "Developed layered controls for technical audits, business-state balancing, temporal checks, proactive alerts, and restart-aware recovery rather than treating schema validity as proof of correctness.",
+    "title": "Designing reconciliation for systems that disagree",
+    "summary": "A reusable data-quality pattern for preserving conflicting evidence, testing business state and time, and recovering safely when schema-valid records describe incompatible realities.",
     "visible": true,
     "order": 3
   },
   {
     "slug": "observability",
-    "title": "Making incident evidence measurable",
-    "summary": "Extended observability beyond infrastructure health by tracking whether telemetry was complete, timely, contradictory, and recoverable\u2014the basis for accepted research with published evaluation results.",
+    "title": "Measuring whether incident evidence can be trusted",
+    "summary": "A research-to-practice pattern that evaluates gaps, delays, contradictions, provenance, and recovery in the telemetry used for incident analysis.",
     "visible": true,
     "order": 4
   },
   {
     "slug": "trustworthy-ai",
-    "title": "Governing AI-assisted data standardization",
-    "summary": "Designed controls around context, provenance, ownership, review, and validation so AI-assisted standardization could support enterprise workflows without hiding uncertainty.",
+    "title": "Building controls around AI-assisted data decisions",
+    "summary": "A governance pattern that keeps context, provenance, uncertainty, ownership, validation, and human review visible around AI-assisted standardization.",
     "visible": true,
     "order": 5
   }

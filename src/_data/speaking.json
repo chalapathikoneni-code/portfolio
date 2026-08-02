@@ -5,34 +5,44 @@
     "description": "Keynote on why reliable AI starts with data architecture, operational controls, and the evidence surrounding the model.",
     "url": "",
     "linkLabel": "",
-    "visible": true
+    "visible": true,
+    "audience": "Engineering leaders, researchers, and practitioners",
+    "takeaway": "Reliable AI depends on data architecture, operational controls, provenance, and evidence\u2014not model quality alone."
   },
   {
     "year": "2026",
     "title": "Invited talks on dependable data and AI systems",
     "description": "Sessions for engineering and research audiences on data quality, distributed systems, observability, and applied AI.",
     "url": "",
-    "visible": true
+    "visible": true,
+    "audience": "Academic and professional engineering audiences",
+    "takeaway": "Silent failure modes become manageable when teams make uncertainty, disagreement, and evidence quality observable."
   },
   {
     "year": "2026",
     "title": "DAMA Atlanta",
     "description": "A practitioner-focused session connecting data-quality architecture, operational controls, and AI-era governance.",
     "url": "",
-    "visible": true
+    "visible": true,
+    "audience": "Data management practitioners and leaders",
+    "takeaway": "Data-quality architecture must connect validation with ownership, recovery, and AI-era governance."
   },
   {
     "year": "2024",
     "title": "Measurement readiness for science and engineering",
     "description": "An internal engineering summit talk focused on reducing the distance between raw enterprise data and trustworthy model inputs.",
     "url": "",
-    "visible": true
+    "visible": true,
+    "audience": "Internal science and engineering audience",
+    "takeaway": "Trustworthy analysis requires reducing the distance between raw enterprise data and decision-ready evidence."
   },
   {
     "year": "2022",
     "title": "Petabyte-scale data engineering and cost discipline",
     "description": "An engineering summit session on operating large analytical workloads with stronger efficiency, ownership, and observability.",
     "url": "",
-    "visible": true
+    "visible": true,
+    "audience": "Internal data engineering audience",
+    "takeaway": "Scale is sustainable only when efficiency, ownership, observability, and operating discipline are designed together."
   }
 ]

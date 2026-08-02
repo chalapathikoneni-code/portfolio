@@ -1,10 +1,10 @@
 ---
-title: Integrating forecasting and replenishment across a newly acquired retailer
+title: Modernizing forecasting across organizational boundaries
 description: A cross-company integration that converted manual replenishment into a repeatable, system-assisted workflow.
 permalink: case-studies/forecasting-platforms.html
 section: Engineering case study
 ---
-<header class="page-hero"><div class="wrap"><div class="eyebrow">Engineering case study</div><h1>Integrating forecasting and replenishment across a newly acquired retailer</h1><p>Post-acquisition integration required preserving operational separation while creating dependable forecasting, audit, and ordering workflows.</p></div></header>
+<header class="page-hero"><div class="wrap"><div class="eyebrow">Engineering case study</div><h1>Modernizing forecasting across organizational boundaries</h1><p>Post-acquisition integration required preserving operational separation while creating dependable forecasting, audit, and ordering workflows.</p></div></header>
 <section><div class="wrap article-layout"><aside class="toc"><a href="/engineering.html">← All case studies</a></aside><article class="prose">
 Bluemercury operated a separate retail technology estate and relied heavily on manual replenishment calculations. The engineering challenge was to connect that environment to an enterprise forecasting platform without flattening important business differences.
 

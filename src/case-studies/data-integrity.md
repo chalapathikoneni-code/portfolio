@@ -1,10 +1,10 @@
 ---
-title: Reconciling valid records when enterprise systems disagree
+title: Designing reconciliation for systems that disagree
 description: Schema-valid records can still describe incompatible business realities.
 permalink: case-studies/data-integrity.html
 section: Engineering case study
 ---
-<header class="page-hero"><div class="wrap"><div class="eyebrow">Engineering case study</div><h1>Reconciling valid records when enterprise systems disagree</h1><p>Validation catches malformed data. Reconciliation handles records that are individually valid and still cannot all be true.</p></div></header>
+<header class="page-hero"><div class="wrap"><div class="eyebrow">Engineering case study</div><h1>Designing reconciliation for systems that disagree</h1><p>Validation catches malformed data. Reconciliation handles records that are individually valid and still cannot all be true.</p></div></header>
 <section><div class="wrap article-layout"><aside class="toc"><a href="/engineering.html">← All case studies</a></aside><article class="prose">
 Many consequential incidents are not schema failures. Every record is well formed, yet systems disagree about inventory, demand, order state, spend, or time.
 

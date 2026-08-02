@@ -1,10 +1,10 @@
 ---
-title: Making incident evidence measurable
+title: Measuring whether incident evidence can be trusted
 description: Incident analysis must measure whether the telemetry used to explain a failure is itself reliable.
 permalink: case-studies/observability.html
 section: Engineering case study
 ---
-<header class="page-hero"><div class="wrap"><div class="eyebrow">Engineering case study</div><h1>Making incident evidence measurable</h1><p>Logs, metrics, and traces describe system behavior. They do not automatically prove that the available evidence is complete.</p></div></header>
+<header class="page-hero"><div class="wrap"><div class="eyebrow">Engineering case study</div><h1>Measuring whether incident evidence can be trusted</h1><p>Logs, metrics, and traces describe system behavior. They do not automatically prove that the available evidence is complete.</p></div></header>
 <section><div class="wrap article-layout"><aside class="toc"><a href="/engineering.html">← All case studies</a></aside><article class="prose">
 Incident analysis becomes overconfident when missing or delayed telemetry is interpreted as absence of failure.
 

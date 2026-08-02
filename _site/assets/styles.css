@@ -769,3 +769,45 @@ a:focus-visible, button:focus-visible { outline: 3px solid rgba(21,88,68,.28); o
   .home-contact-inner { grid-template-columns: 1fr; gap: 1.75rem; align-items: start; }
   .home-contact-actions { flex-wrap: wrap; }
 }
+
+/* 10.1 — mobile portrait prominence and topical SEO pages */
+.hero-portrait-mobile { display:none; }
+.topic-paths { padding:clamp(4rem,7vw,7rem) 0; border-top:1px solid var(--line); }
+.topic-grid { display:grid; grid-template-columns:repeat(2,minmax(0,1fr)); border-top:1px solid var(--line); border-left:1px solid var(--line); }
+.topic-grid a { min-height:180px; padding:28px; border-right:1px solid var(--line); border-bottom:1px solid var(--line); display:flex; flex-direction:column; gap:13px; text-decoration:none; }
+.topic-grid a:hover { background:rgba(18,77,59,.035); }
+.topic-grid strong { font:500 clamp(1.25rem,1.1rem + .4vw,1.55rem)/1.2 Georgia,serif; }
+.topic-grid span { color:var(--muted); line-height:1.55; }
+.article-aside { display:flex; flex-direction:column; gap:10px; align-self:start; position:sticky; top:120px; }
+.article-aside span { color:var(--muted); margin-bottom:12px; }
+.topic-prose { max-width:760px; }
+.notice { padding:18px 20px; border-left:3px solid var(--accent); background:rgba(18,77,59,.05); }
+@media (max-width:720px) {
+  .hero { padding-top:38px; }
+  .hero-layout { display:block; }
+  .hero-portrait-desktop { display:none; }
+  .hero-portrait-mobile { display:block; float:right; width:112px; height:140px; margin:2px 0 16px 18px; border-radius:14px; transform:none; box-shadow:0 10px 24px rgba(23,32,28,.11); }
+  .hero-portrait-mobile img { width:100%; height:100%; object-fit:cover; object-position:center 25%; }
+  .hero-copy h1 { clear:none; }
+  .hero .lede { clear:both; padding-top:8px; }
+  .hero-actions, .profile-line { clear:both; }
+  .topic-grid { grid-template-columns:1fr; }
+  .article-aside { position:static; }
+}
+@media (max-width:430px) {
+  .hero-portrait-mobile { width:96px; height:120px; margin-left:14px; }
+  .hero-layout .hero-copy h1 { font-size:clamp(2.5rem,11.8vw,3.25rem); }
+}
+
+/* 11.0 — final editorial and review polish */
+.hero-layout { align-items:start; }
+.hero-portrait-desktop { margin-top:-8px; }
+.hero-copy .eyebrow { max-width:72ch; }
+.talk-meta, .talk-takeaway { margin:.55rem 0 0; color:var(--muted); font-size:.94rem; }
+.talk-takeaway { max-width:70ch; }
+.timeline article { padding-bottom:2rem; }
+@media (max-width:720px) {
+  .hero-portrait-mobile { float:none; width:118px; height:148px; margin:14px 0 18px; }
+  .hero-layout .hero-copy h1 { max-width:12ch; }
+  .hero .lede { clear:none; padding-top:0; }
+}

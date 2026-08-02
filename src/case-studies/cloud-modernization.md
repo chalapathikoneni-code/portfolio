@@ -1,10 +1,10 @@
 ---
-title: Advancing a governed Teradata-to-BigQuery modernization
+title: Moving enterprise analytics to a governed cloud data platform
 description: Cloud migration succeeds when source meaning, access controls, and operational confidence move with the data.
 permalink: case-studies/cloud-modernization.html
 section: Engineering case study
 ---
-<header class="page-hero"><div class="wrap"><div class="eyebrow">Engineering case study</div><h1>Advancing a governed Teradata-to-BigQuery modernization</h1><p>Modernization is not a file-transfer exercise. It requires repeatable engineering controls around keys, partitions, change detection, access, reconciliation, and cost.</p></div></header>
+<header class="page-hero"><div class="wrap"><div class="eyebrow">Engineering case study</div><h1>Moving enterprise analytics to a governed cloud data platform</h1><p>Modernization is not a file-transfer exercise. It requires repeatable engineering controls around keys, partitions, change detection, access, reconciliation, and cost.</p></div></header>
 <section><div class="wrap article-layout"><aside class="toc"><a href="/engineering.html">← All case studies</a></aside><article class="prose">
 Macy’s cloud-data program identified Data as a Service as an early Teradata/Hadoop-to-BigQuery migration priority, with forecasting, replenishment, purchase orders, inventory, and other supply-chain domains included in the broader roadmap.
 

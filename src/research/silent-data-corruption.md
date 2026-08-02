@@ -18,6 +18,14 @@ Generative components can introduce outputs that satisfy schema and type checks 
 
 Enterprise controls often assume malformed data will reveal itself. AI-assisted transformations weaken that assumption. Detection has to include provenance, context, and semantic checks.
 
+## Contribution
+
+The work distinguishes structural validity from semantic correctness and frames provenance, context, and meaning-aware controls as necessary for GenAI-augmented data pipelines.
+
+## Limitations
+
+The framework does not imply that semantic correctness can be fully automated. Domain ownership, review, and context remain necessary when meaning is ambiguous.
+
 ## Status
 
 Accepted for the IEEE ICDCS 2026 Industry Program.

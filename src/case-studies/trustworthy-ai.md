@@ -1,10 +1,10 @@
 ---
-title: Governing AI-assisted data standardization
+title: Building controls around AI-assisted data decisions
 description: Reliable AI depends on context, provenance, review, and controls around the model.
 permalink: case-studies/trustworthy-ai.html
 section: Engineering case study
 ---
-<header class="page-hero"><div class="wrap"><div class="eyebrow">Engineering case study</div><h1>Governing AI-assisted data standardization</h1><p>AI can accelerate classification and standardization, but only when uncertainty, provenance, and review remain visible.</p></div></header>
+<header class="page-hero"><div class="wrap"><div class="eyebrow">Engineering case study</div><h1>Building controls around AI-assisted data decisions</h1><p>AI can accelerate classification and standardization, but only when uncertainty, provenance, and review remain visible.</p></div></header>
 <section><div class="wrap article-layout"><aside class="toc"><a href="/engineering.html">← All case studies</a></aside><article class="prose">
 Enterprise data rarely arrives with consistent names, ownership, and context. AI can propose mappings, but an unchecked suggestion can spread semantic errors faster than a manual process.
 
