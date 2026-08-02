@@ -956,3 +956,68 @@ html, body { max-width: 100%; overflow-x: clip; }
   .topic-prose h2 { margin-top: 34px; }
   .topic-prose p, .topic-prose li { overflow-wrap: anywhere; }
 }
+
+/* 12.2 — simplified philosophy and unified professional service */
+.philosophy-layout {
+  max-width: 1120px;
+}
+.philosophy-toc {
+  display: grid;
+  grid-template-columns: auto repeat(5, minmax(0, 1fr));
+  align-items: stretch;
+  border: 1px solid var(--line);
+  margin: 0 0 clamp(36px, 4vw, 56px);
+  background: rgba(255,255,255,.24);
+}
+.philosophy-toc span,
+.philosophy-toc a {
+  display: flex;
+  align-items: center;
+  min-width: 0;
+  padding: 15px 16px;
+  line-height: 1.3;
+}
+.philosophy-toc span {
+  color: var(--muted);
+  font-size: .78rem;
+  font-weight: 760;
+  letter-spacing: .11em;
+  text-transform: uppercase;
+  border-right: 1px solid var(--line);
+  white-space: nowrap;
+}
+.philosophy-toc a {
+  border-right: 1px solid var(--line);
+  font-size: .9rem;
+  font-weight: 650;
+  text-decoration: none;
+  overflow-wrap: anywhere;
+}
+.philosophy-toc a:last-child { border-right: 0; }
+.philosophy-toc a:hover { background: rgba(18,77,59,.055); }
+.philosophy-prose {
+  width: min(100%, 900px);
+  max-width: none;
+}
+.philosophy-prose > :first-child { margin-top: 0; }
+.philosophy-prose h2 {
+  scroll-margin-top: 120px;
+  margin-top: clamp(40px, 4.5vw, 62px);
+}
+.philosophy-prose h2:first-of-type { margin-top: 36px; }
+
+@media (max-width: 1080px) {
+  .philosophy-toc {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+  .philosophy-toc span { grid-column: 1 / -1; border-right: 0; border-bottom: 1px solid var(--line); }
+  .philosophy-toc a { border-bottom: 1px solid var(--line); }
+  .philosophy-toc a:nth-last-child(-n+2) { border-bottom: 0; }
+}
+@media (max-width: 680px) {
+  .philosophy-toc { grid-template-columns: 1fr 1fr; margin-bottom: 30px; }
+  .philosophy-toc a { padding: 12px 13px; font-size: .86rem; }
+  .philosophy-toc a:nth-last-child(-n+2) { border-bottom: 1px solid var(--line); }
+  .philosophy-toc a:last-child { border-bottom: 0; grid-column: 1 / -1; }
+  .philosophy-prose h2 { margin-top: 34px; }
+}

@@ -4,7 +4,7 @@ description: Chalapathi Koneni’s engineering philosophy for trustworthy data s
 permalink: philosophy.html
 ---
 <header class="page-hero"><div class="wrap"><div class="eyebrow">Engineering philosophy</div><h1>Trust is an engineered property.</h1><p>Reliable systems do more than stay available. They make their evidence, assumptions, uncertainty, ownership, and recovery paths visible.</p></div></header>
-<section><div class="wrap article-layout"><aside class="article-aside"><span>Five principles</span><a href="#meaning">Preserve meaning</a><a href="#evidence">Measure evidence</a><a href="#disagreement">Keep disagreement visible</a><a href="#recovery">Design recovery</a><a href="#ai">Govern AI</a></aside><article class="prose topic-prose">
+<section><div class="wrap philosophy-layout"><nav class="philosophy-toc" aria-label="Five engineering principles"><span>Five principles</span><a href="#meaning">1. Preserve meaning</a><a href="#evidence">2. Measure evidence</a><a href="#disagreement">3. Keep disagreement visible</a><a href="#recovery">4. Design recovery</a><a href="#ai">5. Govern AI</a></nav><article class="prose philosophy-prose">
 ## Why trustworthy data matters
 
 Data systems increasingly influence forecasts, measurement, operations, and AI-assisted decisions. A pipeline can complete successfully while producing an answer that is stale, semantically wrong, or impossible to defend. Engineering quality therefore has to include the credibility of the answer—not only the health of the infrastructure.
