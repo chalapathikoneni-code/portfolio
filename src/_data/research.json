@@ -62,5 +62,101 @@
     "venue": "ASONAM 2026 Industry Track",
     "url": "",
     "linkLabel": ""
+  },
+  {
+    "slug": "icdm-2026",
+    "title": "Beyond Schema Validation: Characterizing Structurally Valid Data Corruption in Multi-Source Analytical Pipelines",
+    "question": "Research on trustworthy, reliable, and measurable data and AI systems.",
+    "topics": [
+      "trust",
+      "ai"
+    ],
+    "status": "accepted",
+    "public": true,
+    "verified": true,
+    "order": 5,
+    "venue": "IEEE ICDM 2026 Applied Track",
+    "url": "https://www.amazon.science/publications/beyond-schema-validation-characterizing-structurally-valid-data-corruption-in-multi-source-analytical-pipelines",
+    "linkLabel": "Research listing"
+  },
+  {
+    "slug": "inciscos-2026",
+    "title": "A Hybrid Generative–Discriminative Framework for Predictive Failure Detection in Distributed Enterprise Data Pipelines",
+    "question": "Research on trustworthy, reliable, and measurable data and AI systems.",
+    "topics": [
+      "trust",
+      "ai"
+    ],
+    "status": "accepted",
+    "public": true,
+    "verified": true,
+    "order": 6,
+    "venue": "INCISCOS 2026 · Paper 84",
+    "url": "",
+    "linkLabel": ""
+  },
+  {
+    "slug": "icaisg-2026",
+    "title": "Detecting Hallucinations and Integrity Drift in Generative-AI Outputs: A Hybrid Framework for Trustworthy AI Governance of Data Pipelines",
+    "question": "Research on trustworthy, reliable, and measurable data and AI systems.",
+    "topics": [
+      "trust",
+      "ai"
+    ],
+    "status": "accepted",
+    "public": true,
+    "verified": true,
+    "order": 7,
+    "venue": "ICAISG 2026 · HF1067",
+    "url": "",
+    "linkLabel": ""
+  },
+  {
+    "slug": "icsrs-r7246",
+    "title": "AI-Augmented Predictive Maintenance for Multi-Zone Industrial Data-Processing Systems: A Hybrid Generative-Discriminative Framework",
+    "question": "Research on trustworthy, reliable, and measurable data and AI systems.",
+    "topics": [
+      "trust",
+      "ai"
+    ],
+    "status": "accepted",
+    "public": true,
+    "verified": true,
+    "order": 8,
+    "venue": "ICSRS 2026 · R7246",
+    "url": "",
+    "linkLabel": ""
+  },
+  {
+    "slug": "icsrs-r7247",
+    "title": "Temporal Modeling of Integrity Drift in Industrial Data Pipelines: A Graph-Aware Reliability Framework for Detecting Generative-AI-Induced Degradation",
+    "question": "Research on trustworthy, reliable, and measurable data and AI systems.",
+    "topics": [
+      "trust",
+      "ai"
+    ],
+    "status": "accepted",
+    "public": true,
+    "verified": true,
+    "order": 9,
+    "venue": "ICSRS 2026 · R7247",
+    "url": "",
+    "linkLabel": ""
+  },
+  {
+    "slug": "iipem-1005",
+    "title": "Adaptive Data Ingestion across Heterogeneous Databases and External Sources under Freshness, Reliability, and Cost Constraints",
+    "question": "Research on trustworthy, reliable, and measurable data and AI systems.",
+    "topics": [
+      "trust",
+      "ai"
+    ],
+    "status": "accepted",
+    "public": true,
+    "verified": true,
+    "order": 10,
+    "venue": "IIPEM 2026 · Paper 1005",
+    "url": "",
+    "linkLabel": ""
   }
 ]
