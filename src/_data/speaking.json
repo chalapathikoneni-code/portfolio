@@ -1,6 +1,16 @@
 [
   {
     "year": "2026",
+    "title": "When Everything Is Green but the Data Is Wrong: Observability for Silent Pipeline Failures",
+    "description": "Conference presentation on silent pipeline failures and data that passes operational checks while remaining semantically incorrect.",
+    "url": "https://osoday.com/osod-2026",
+    "linkLabel": "Official OSOD 2026 speaker listing",
+    "visible": true,
+    "audience": "Open Source Observability Day 2026 · October 16, 2026 · online",
+    "takeaway": "Operational health indicators alone cannot establish data correctness."
+  },
+  {
+    "year": "2026",
     "title": "Building Reliable AI Systems at Scale: Architecture Beyond Models",
     "description": "Keynote on enterprise AI architecture, LLMOps, observability, and the controls required beyond model quality.",
     "url": "https://www.slideshare.net/slideshow/building-reliable-ai-systems-at-scale-enterprise-ai-architecture-llmops-observability/287421410",
